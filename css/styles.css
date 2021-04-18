@@ -1,10 +1,5 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Creative v6.0.4 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-/*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
@@ -164,8 +159,8 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
-  text-decoration: underline;
+  //color: #d6370c;
+  //text-decoration: underline;
 }
 
 a:not([href]):not([class]) {
@@ -10226,7 +10221,7 @@ header.masthead h1 {
   padding-top: 120px;
   background-image: url("../assets/img/about_circles.png");
   background-position-x: center;
-  background-position-y: 40%;
+  background-position-y: 10%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: auto;
@@ -10247,12 +10242,27 @@ header.masthead h1 {
   background-repeat: repeat-x;
   background-attachment: scroll;
   background-size: auto;
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .social-icon{
-  padding: 18px 10px 0 10px;
+  margin: 18px 10px 6px 10px;
+  //height: 52px;
+  border-radius: 50%;
+  padding: 4px;
+  //margin-bottom: 16px;
+  border-width: 1px;
+  border-color: rgb(255 168 92);
+  border-style: solid;
+  transition: margin 0.25s ease-out, padding 0.25s ease-out;
+}
+
+.social-icon:hover{
+  //transform: scale(1.1);
+  //height: 94;
+  margin: 12px 4px 0px 4px;
+  padding: 10px;
 }
 
 .email{
