@@ -10240,6 +10240,34 @@ header.masthead h1 {
   padding: 0 16px 0 16px
 }
 
+.contact{
+  background-image: url("../assets/img/contact_lines.png");
+  background-position-x: center;
+  background-position-y: 42%;
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  background-size: auto;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.social-icon{
+  padding: 18px 10px 0 10px;
+}
+
+.email{
+  font-family: Khand, sans-serif;
+  font-weight: 300;
+  font-size: 1.7rem;
+  color: #ffff;
+  transition: color 0.3s;
+}
+
+.email:hover{
+  color: #FFA85C;
+  text-decoration: none;
+}
+
 .rotate-s{
   -webkit-animation:spin 5s linear infinite;
   -moz-animation:spin 5s linear infinite;
